@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    font-size:25px;
+    font-family: 'Lora', serif;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+header{
+   background-image: url("https://www.petlove.com.br/images/breeds/193434/header/original/header-ra%C3%A7as_akita.jpg?1517512490");
+   height: 400px;
+   background-position-y:-40px;
+   background-repeat: no-repeat;
+   background-position-x: center;
+}
+.container {
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+    padding:2%;
+    margin-left:2%;
+    font-size:30px;
+    margin-top: 0 !important;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+.card { 
+    color: #4c4c4c;
+}
+.card {
+    padding: 5%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .06);
+}
+.card-inicio { 
+    color: #4c4c4c;
+    height:540px;
+}
+.card-inicio {
+    padding: 5%;
+    margin-right: 2%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .06)
+}
+.caracteristicas{
+    margin-top: 5%;
+}
+.caracteristicas__level {
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    background-color: #3b6f91;
+    display: inline-block;
+    margin-right: 5%;
+}
+.caracteristicas__level--white {
+    background-color: #bcbcbc
+}
+.caracteristicas__levels {
+    text-align: right
+}
+.caracteristicas__name {
+    font-size: 25px;
+}
+
+.caracteristicas-gerais {
+    margin-bottom: 5%;
+}
+.titulo {
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 2%;
+    color: black;
+}
+.titulo2 {
+    font-weight: 500;
+    font-size: 30px;
+    color: black;
+}
+
+.subtitulo-principal {
+    line-height: 40px;
+    text-align: center;
+}
+
+.informacoes-especificas {
+    text-align: center;
+}
+.descricoes_especificas {
+    border-left: 1px solid #303030;
+    padding-left: 4%;
+    margin-left:40px;
+    height: 100%;
+    line-height: 40px;
+    
+}
+.descricoes_text {
+    line-height: 40px;
+    padding-right:2%;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 30px;
+    color:black;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.informacoes {
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right:2%;
+    background-image:linear-gradient(to top, #f7d8ec 0%, #c6dbfa 99%, #e3eeff 100%);
+}
+@media (min-width: 320px) and (max-width: 370px) {
+    header{
+        background-image: url("https://www.petlove.com.br/images/breeds/193434/header/original/header-ra%C3%A7as_akita.jpg?1517512490");
+        height: 300px;
+        background-repeat: no-repeat;
+        background-position-x: -1090px;
+        background-position-y: -10px;
+     }
+    .titulo {
+        font-size: 25px;
+    }
+    .descricoes_especificas {
+        border-left: none;
+        margin-left: 0;
+        padding-left:0;
+    }
+    .caracteristicas__level {
+        width: 12px;
+        height: 12px;
+    }
+    .caracteristicas__levels {
+        text-align: right;
+        margin-top: -4%;
+        margin-bottom: -8%;
+    }
+    .caracteristicas__name  {
+        font-size: 20px;
+    }
+    .descricoes_text{
+        font-size: 20px;
+    }
+    .subtitulo-principal {
+        line-height: 30px;
+        margin-top: 12%;
+        margin-bottom: 12%;
+        color:black;
+        text-align: center;
+        font-size: 15px;
+    }
+    #inicio {
+        height: 1150px;
+    }
+    
+}
+@media (min-width: 375px) and (max-width: 767px) {
+    header{
+        background-image: url("https://www.petlove.com.br/images/breeds/193434/header/original/header-ra%C3%A7as_akita.jpg?1517512490");
+        height: 300px;
+        background-repeat: no-repeat;
+        background-position-x: -1150px;
+        background-position-y: -90px;
+     }
+    .titulo {
+        font-size: 25px;
+    }
+    .descricoes_especificas {
+        border-left: none;
+        margin-left: 0;
+        padding-left:0;
+    }
+    .caracteristicas__level {
+        width: 10px;
+        height: 10px;
+    }
+    .caracteristicas__levels {
+        text-align: right;
+        margin-top: -12%;
+        margin-bottom: -8%;
+    }
+    .caracteristicas__name {
+        font-size: 20px;
+    }
+    .descricoes_text{
+        font-size: 20px;
+    }
+    .subtitulo-principal {
+        line-height: 30px;
+        margin-top: 12%;
+        margin-bottom: 12%;
+        color:black;
+        text-align: center;
+        font-size: 15px;
+    }
+    #inicio {
+        height: 1150px;
+    }
+    
+}

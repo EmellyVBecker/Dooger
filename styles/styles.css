@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@650&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+
+.content-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.hm-gradient {
+    background-image: linear-gradient(to top, #f7d8ec 0%, #c6dbfa 99%, #e3eeff 100%);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+}
+
+.container-nav {
+    width: 100%;
+}
+
+#principal {
+    width: 100%;
+    height: 800px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 26%;
+    background-position-y: 160px;
+    background-position-x: 1000px;
+    background-color: linear-gradient(to top, #f7d8ec 0%, #c6dbfa 99%, #e3eeff 100%);
+    padding-top: 5px;
+}
+
+#principal h1 {
+    color: black;
+    font-size: 70px;
+    margin-left: 8%;
+    margin-top: 220px;
+    text-align: start;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#principal p {
+    color: black;
+    font-size: 20px;
+    margin-left: 8%;
+    margin-top: 2%;
+    width: 50%;
+    text-align: start;
+    font-family: 'Lora', serif;
+}
+
+#racas h3 {
+    color: black;
+    font-size: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#racas h5 {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#racas p {
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
+#racas button {
+    align-self: center;
+    margin-left: 30%;
+    margin-bottom: 5%;
+}
+
+#racas a {
+    align-self: center;
+    margin-left: 34%;
+    margin-bottom: 5%;
+}
+
+#contato {
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(to top, #f7d8ec 0%, #c6dbfa 99%, #e3eeff 100%);
+    padding-top: 5px;
+}
+
+#contato h3 {
+    color: black;
+    font-size: 50px;
+    margin-top: 5%;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#contato p {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
+#contato button {
+    text-align: center;
+    margin-left: 48%;
+}
+
+.footer p {
+    margin-top: 7%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+    #principal img {
+        height: 250px;
+        background-size: 1100px;
+        background-repeat: no-repeat;
+        background-position-x: -360px;
+        background-position-y: -5px;
+    }
+
+    #principal {
+        width: 100%;
+        height: 500px;
+    }
+
+    #principal .intro-text h1 {
+        font-size: 50px;
+        margin-top: 30px;
+        margin-left: 2%;
+        text-align: center;
+    }
+    #principal .intro-text p {
+        font-size: 15px;
+        text-align: center;
+        margin-left: 22%;
+    }
+    #contato button {
+        text-align: center;
+        margin-left: 40%;
+    }
+    
+}
