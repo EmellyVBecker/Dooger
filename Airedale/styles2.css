@@ -15,7 +15,6 @@ header{
 .container {
     width: 100%;
 }
-
 ul{
     list-style: none;
     padding:2%;
@@ -27,28 +26,9 @@ a{
     color:white;
     text-decoration: none;
 }
-.card { 
-    color: #4c4c4c;
-}
-.card {
-    padding: 5%;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, .06);
-}
-.card-inicio { 
-    color: #4c4c4c;
-    height:540px;
-}
-.card-inicio {
-    padding: 5%;
-    margin-right: 2%;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, .06)
-}
-.caracteristicas{
-    margin-top: 5%;
-}
 .caracteristicas__level {
-    width: 16px;
-    height: 16px;
+    width: 10px;
+    height: 10px;
     border-radius: 50px;
     background-color: #3b6f91;
     display: inline-block;
@@ -65,12 +45,12 @@ a{
 }
 
 .caracteristicas-gerais {
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }
 .titulo {
     font-weight: 500;
     font-size: 30px;
-    margin-bottom: 2%;
+    margin-bottom: 20%;
     color: black;
 }
 .titulo2 {
@@ -105,14 +85,14 @@ a{
     font-size: 30px;
     color:black;
     text-align: center;
-    margin-bottom: 2%;
+    margin-bottom: 200%;
 }
 
 .informacoes {
     margin-bottom: 2%;
     margin-left: 2%;
     margin-right:2%;
-    background-image:linear-gradient(to top, #f7d8ec 0%, #c6dbfa 99%, #e3eeff 100%);
+    background-color: #3b6f91;
 }
 @media (min-width: 320px) and (max-width: 370px) {
     header{
@@ -136,8 +116,8 @@ a{
     }
     .caracteristicas__levels {
         text-align: right;
-        margin-top: -4%;
-        margin-bottom: -8%;
+        margin-top: -2%;
+        margin-bottom: -2%;
     }
     .caracteristicas__name  {
         font-size: 20px;
@@ -168,11 +148,13 @@ a{
      }
     .titulo {
         font-size: 25px;
+      
     }
     .descricoes_especificas {
         border-left: none;
         margin-left: 0;
         padding-left:0;
+        
     }
     .caracteristicas__level {
         width: 10px;

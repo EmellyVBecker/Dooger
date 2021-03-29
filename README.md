@@ -4,7 +4,7 @@
 Estamos consumindo a API publica: https://dog.ceo/dog-api/documentation/random
 
 ![](screenshot.png)
-![](screenshot2.png)
+![](img.png)
 
 ## Installation
 
